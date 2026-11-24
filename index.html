@@ -4,15 +4,18 @@
 <style>body{font-family:system-ui,sans-serif;max-width:720px;margin:3em auto;padding:0 16px;line-height:1.6;color:#222;background:#fff}a{color:#c2185b}</style>
 </head><body>
 <h1>ACM Uploader</h1>
-<p>ACM Uploader is a personal desktop tool made and used by HaydenB. It runs only on its owner's own Windows PC. It edits the owner's own gameplay
-recordings into short vertical videos and posts them to the owner's own TikTok account.</p>
+<p>ACM Uploader is a personal desktop tool made and used by HaydenB. It runs only on its owner's own Windows PC. It edits
+the owner's own gameplay recordings into videos and Shorts and publishes them to the owner's own <strong>YouTube
+channel</strong> and <strong>TikTok account</strong>.</p>
 <h2>How it works</h2>
 <ol>
-<li>The owner signs in to TikTok with TikTok Login Kit and gives the app permission to post.</li>
-<li>The app edits a gameplay recording into a short video on the owner's PC.</li>
-<li>The owner reviews and approves the video and its caption.</li>
-<li>The app uploads the video to the owner's TikTok account with the Content Posting API. Posts are private by default.</li>
+<li>The owner records gameplay on their PC.</li>
+<li>The app edits each recording into short vertical videos (and longer videos for long recordings) and writes a title,
+description and hashtags.</li>
+<li>The owner signs in once with Google (YouTube Data API) and with TikTok (Login Kit) and gives the app permission to upload.</li>
+<li>The app uploads the videos to the owner's YouTube channel (YouTube Data API v3) and TikTok account (Content Posting
+API), spread out across the day on a schedule the owner controls. The owner can pause, reorder or remove any video.</li>
 </ol>
-<p>The app is not offered to the public, and no other users can sign in to it.</p>
+<p>The app is not offered to the public. Only the owner's own accounts are connected, and no one else can sign in to it.</p>
 <p><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a></p>
 </body></html>
